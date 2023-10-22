@@ -1,0 +1,27 @@
+.h4{
+    color: #1c1c1c;
+    text-align: end;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Dancing Script', cursive;
+}
+.h2{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-style: normal;
+    text-align: start;
+}
+.social-text p{
+    color: #1c1c1c;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Dancing Script', cursive;
+    
+    text-align: start;
+
+}
+.logo img{
+    height:100%;
+    width: 100%;
+}
