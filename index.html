@@ -35,30 +35,35 @@
                     <p class="h4">that does not exist...</p>
                 </div>
                 <div class="user-info bg-light py-2 mt-3 mb-3">
-                    <form>
-                        <div class="row">
-                            <div class="mt-1 mb-1 col-md-5 col-lg-6 form-floating">
-                                <input type="text" class="form-control" id="firstname" placeholder="john">
-                                <label for="firstname" class="form-label">First Name</label>
+                    <div class="d-flex p-1 justify-content-center">
+                        <form class="justify-content-center">
+                            <div class="row">
+                                <div class="my-1 col-md-6 form-floating">
+                                    <input type="text" class="form-control" id="firstname" placeholder="john">
+                                    <label for="firstname" class="form-label text-muted ms-2">First Name</label>
+                                </div>
+                                <div class="my-1 col-md-6 form-floating">
+                                    <input type="text" class="form-control" id="lastname" placeholder="cena">
+                                    <label for="lastname" class="form-label text-muted ms-md-1 ms-2">Last Name</label>
+                                </div>
                             </div>
-                            <div class="mt-1 mb-1 col-md-5 col-lg-6 form-floating">
-                                <input type="text" class="form-control" id="lastname" placeholder="cena">
-                                <label for="lastname" class="form-label">Last Name</label>
+                            <div class="mb-1 mt-1 form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                <label for="email" class="form-label text-muted">Email</label>
                             </div>
-                        </div>
-                        <div class="mb-1 mt-1 form-floating">
-                            <input type="email" class="form-control" id="email" placeholder="Enter email">
-                            <label for="email" class="form-label">Email</label>
-                        </div>
-                        <div class="mt-1 mb-1 form-floating">
-                            <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
-                            <label for="pwd" class="form-label">Password</label>
-                        </div>
-                        <div class="mt-1 mb-1 form-floating">
-                            <input type="password" class="form-control" id="cpwd" placeholder="Confirm Password">
-                            <label for="cpwd" class="form-label">Confirm Password</label>
-                        </div>
-                    </form>
+                            <div class="row">
+                                <div class="my-1 form-floating col-md-6 ">
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
+                                    <label for="pwd" class="form-label text-muted ms-2">Password</label>
+                                </div>
+                                <div class="my-1 form-floating col-md-6">
+                                    <input type="password" class="form-control" id="cpwd" placeholder="Confirm Password">
+                                    <label for="cpwd" class="form-label text-muted ms-2">Confirm Password</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
 
                     <!-- buttons -->
                     <div class="row mt-2">
